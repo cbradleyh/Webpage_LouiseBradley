@@ -1,12 +1,8 @@
 Homepage
 ==========
 
-This repository gives the code for my online homepage. You can visit at:
+This repository gives the code for Louise Bradley's online homepage. 
 
-[yan-holtz.com](https://www.yan-holtz.com)
+You can visit the homepage at:
 
-Note that by blog is linked to this, available at:
-
-[yan-holtz.com/blog](https://www.yan-holtz.com/blog)
-
-
+[louise-bradley_podologue.com](https://www.louise-bradley-podo.com)
