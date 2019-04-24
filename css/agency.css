@@ -258,7 +258,7 @@ img::-moz-selection {
 
 .parallaxwebsite {
     /* The image used (faded with convert overview_RGG.png  -fill white -colorize 50%  overview_RGG_faded.png*/
-    background-image: url("../img/parallax/poster_zoom_fadded.png");
+    background-image: url("../img/parallax/SemellePiedGants.jpg");
 
     /* Set a specific height */
     min-height: 500px;
