@@ -100,63 +100,81 @@
 
   <!-- =======================  LANDING SECTION ======================= -->
 
-  <header class="masthead">
-  <div id="main-landing"></div>
-  <div class="textlanding">
-      <p style="display:inline; font-size: 35px; padding-left: 30px">LOUISE BRADLEY</p>
-      <hr style="width: 100px; height: 1px; border:none;color:#333;background-color:#333;">
-      <br>
-      <br><br>
-      <p>Bienvenue sur la page de Louise Bradley. <br> Je suis une pédicure-podologue exerçant à Vernoux-en-Vivarais, en Ardèche. <br> J'offre des soins de pédicurie-podologie au cabinet et à domicile, sur rendez-vous.</p>
-      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">En savoir plus</a>
-      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Prendre rendez-vous</a>
-  </div>
-  <div class="arrowlanding">
-    <a class="js-scroll-trigger" href="#services"><p style="font-size: 80px; color: #69b3a2">&#xfe40;</p></a>
-  </div>
-  </header>
+  <section class="bg-light">
+  <!--<header class="masthead">-->
+    <!-- Create the space + possible picture? Why is the rest not contained within? -->
+    <!-- <div id="main-landing"></div> -->
+    <!-- Add some text + portrait on the side -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 text-center">
+          <img class="img-fluid" src="img/portrait/LouiseBradley.jpg" alt="Louise Bradley portrait professionel" style="margin-bottom: 30px">
+        </div>
+
+        <div class="col-lg-8 text-center">
+          <p style="display:inline; font-size: 35px; padding-left: 30px">LOUISE BRADLEY</p>
+          <hr style="width: 100px; height: 1px; border:none;color:#333;background-color:#333;">
+          <br><p style="display:inline; font-size: 35px; padding-left: 30px">PEDICURE-PODOLOGUE</p>
+          <br>
+          <br>
+          <p>Bienvenue sur la page de Louise Bradley.
+            <br> Je suis une pédicure-podologue exerçant à Vernoux-en-Vivarais, en Ardèche.
+            <br> J'offre des soins de pédicure-podologie au cabinet et à domicile, sur rendez-vous.
+          </p>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">En savoir plus</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Prendre rendez-vous</a>
+        </div>
+
+
+    <!-- Put in an arrow that leads to the next section -->
+    <div class="arrowlanding">
+      <a class="js-scroll-trigger" href="#services">
+        <p style="font-size: 80px; color: #69b3a2">&#xfe40;</p>
+      </a>
+    </div>
+  </section>
+  <!--</header>-->
 
 
 
   <!-- =======================  SERVICES SECTION ======================= -->
 
   <section class="bg-light" id="services" style="padding-top: 0px; padding-bottom: 0px">
-  <div class="parallaxwebsite">
-      <div class="container" style="padding-top: 80px; padding-bottom: 80px">
-        <div class="row">
-          <div class="col-lg-12 text-center" style="padding-bottom: 3%">
-            <p style="display:inline; font-size: 35px">Services</p>
-            <hr style="width: 100px; height: 1px; border:none;color:#333;background-color:#333;">
-            <center><h3 style="max-width: 500px;  line-height: 27px;" class="section-subheading text-muted">Liste non-exhaustive.</h3></center>
+    <div class="parallaxwebsite">
+        <div class="container" style="padding-top: 80px; padding-bottom: 80px">
+          <div class="row">
+            <div class="col-lg-12 text-center" style="padding-bottom: 3%">
+              <p style="display:inline; font-size: 35px">Services</p>
+              <hr style="width: 100px; height: 1px; border:none;color:#333;background-color:#333;">
+              <center><h3 style="max-width: 500px;  line-height: 27px;" class="section-subheading text-muted">Liste non-exhaustive.</h3></center>
+            </div>
           </div>
+
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <a data-toggle="modal" href="#Soins"><i class="fa fa-wrench services-logo"></i></a>
+            <a data-toggle="modal" href="#Soins"><h4>Soins</h4></a>
+            <p>je ne sais pas ce que tu fais en fait!.</p>
+            <a data-toggle="modal" href="#Soins" style="font-size: 23px">+</a>
+          </div>
+
+          <div class="col-lg-4 text-center">
+            <a data-toggle="modal" href="#semelles"><i class="fa fa-search services-logo"></i></a>
+            <a data-toggle="modal" href="#semelles"><h4>semelles</h4></a>
+            <p>Realisation de semelles orthopediques sur mesure.</p>
+            <a data-toggle="modal" href="#dataMining" style="font-size: 23px">+</a>
+          </div>
+
+          <div class="col-lg-4 text-center">
+            <a data-toggle="modal" href="#orthoplasties"><i class="fa fa-bar-chart services-logo"></i></a>
+            <a data-toggle="modal" href="#orthoplasties"><h4>orthoplasties</h4></a>
+            <p>K-taping et orthopasties pour soulager la douleur.</p>
+            <a data-toggle="modal" href="#dataViz" style="font-size: 23px">+</a>
+          </div>
+
         </div>
-
-      <div class="row">
-
-        <div class="col-lg-3 text-center">
-          <a data-toggle="modal" href="#Soins"><i class="fa fa-wrench services-logo"></i></a>
-          <a data-toggle="modal" href="#Soins"><h4>Soins</h4></a>
-          <p>je ne sais pas ce que tu fais en fait!.</p>
-          <a data-toggle="modal" href="#Soins" style="font-size: 23px">+</a>
-        </div>
-
-        <div class="col-lg-3 text-center">
-          <a data-toggle="modal" href="#semelles"><i class="fa fa-search services-logo"></i></a>
-          <a data-toggle="modal" href="#semelles"><h4>semelles</h4></a>
-          <p>Realisation de semelles orthopediques sur mesure.</p>
-          <a data-toggle="modal" href="#dataMining" style="font-size: 23px">+</a>
-        </div>
-
-        <div class="col-lg-3 text-center">
-          <a data-toggle="modal" href="#orthoplasties"><i class="fa fa-bar-chart services-logo"></i></a>
-          <a data-toggle="modal" href="#orthoplasties"><h4>orthoplasties</h4></a>
-          <p>K-taping et orthopasties pour soulager la douleur.</p>
-          <a data-toggle="modal" href="#dataViz" style="font-size: 23px">+</a>
-        </div>
-
       </div>
     </div>
-  </div>
   </section>
 
 
@@ -164,18 +182,17 @@
   <!-- =======================  DESCRIPTION SECTION ======================= -->
 
   <section id="description" class="bg-light" >
-  <div class="container" >
-
-    <div class="row">
-      <div class="col-lg-4 text-center">
-        <img class="img-fluid" src="img/portrait/LouiseBradley.jpg" alt="Louise Bradley portrait" style="margin-bottom: 30px">
-      </div>
-      <div class="col-lg-8 text-center text-md-left">
-        <p>Diplômée de l'Ecole de Podologie de Bordeaux en juin 2018, j'ai ouvert mon cabinet en Octobre 2018.
-        J'ai effectué des remplacements pour des collègues xx et xxx.</p>
+    <div class="container" >
+      <div class="row">
+        <div class="col-lg-4 text-center">
+          <img class="img-fluid" src="img/portrait/LouiseBradley.jpg" alt="Louise Bradley portrait" style="margin-bottom: 30px">
+        </div>
+        <div class="col-lg-8 text-center text-md-left">
+          <p>Diplômée de l'Ecole de Podologie de Bordeaux en juin 2018, j'ai ouvert mon cabinet en Octobre 2018.
+          J'ai effectué des remplacements pour des collègues xx et xxx.</p>
+        </div>
       </div>
     </div>
-  </div>
   </section>
 
 
