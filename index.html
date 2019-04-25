@@ -28,32 +28,33 @@
   <meta property='og:url' content="https://cbradleyh.github.io/Webpage_LouiseBradley/#services" />
   <meta property="og:type" content="website" />
 
-  <!-- 1. Bootstrap core CSS - DOES THE ORDER OF THESE THREE MATTER?-->
+  <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-
-  <!-- 2. Custom fonts for this template - DO THESE SLOW DOWN LOADING???-->
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="css/agency.css">
+  <!-- Custom fonts for this template - DO THESE SLOW DOWN LOADING???-->
   <link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
   <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Kaushan+Script'>
   <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic'>
   <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700'>
 
-  <!-- 3. Custom styles for this template -->
-  <link rel="stylesheet" href="css/agency.css">
 
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79254642-5"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-79254642-5');
-  </script>
+  <!-- Javascript scripts can be found at the bottom of the 'body' section -->
 
 
 </head>
 
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- !!! Check for necessity later on !!!-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-79254642-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-79254642-5');
+</script> <!-- Might need to change the ID number -->
 
 
 <!--------------------------------------------->
@@ -66,13 +67,16 @@
 
   <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
     <div class="container">
+      <!-- Create a bookmark that brings you back to the top of the page -->
       <a class="js-scroll-trigger" href="#page-top">
         ACCUEIL
       </a>
+      <!-- If the screen is too small, collapse the navbar into a 'Menu' button -->
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
-        <i class="fa fa-bars"></i>
+        <!--<i class="fa fa-bars"></i> I suspect this does nothing-->
       </button>
+      <!-- Create the responsive navigation bar -->
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
@@ -426,8 +430,7 @@
       opacity: 1
      }
   </style>
-  <!-- </head> Whats that doing here? -->
-  <!--<body>  and this??? -->
+
     <!--The div element for the map -->
   <div id="map"></div>
   <script>
@@ -715,17 +718,6 @@
 
   <!-- Load d3.js -->
   <script src="https://d3js.org/d3.v4.min.js"></script>
-
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79254642-3"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-79254642-3');
-  </script>
 
 
 
